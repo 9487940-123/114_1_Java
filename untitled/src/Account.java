@@ -30,7 +30,7 @@ public class Account {
         if(balance>0){
             this.balance = balance;
         } else {
-            System.out.println("Balance must be positive.");
+            System.out.println("Balance must be positive.");.
         }
     }
 
