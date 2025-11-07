@@ -34,7 +34,7 @@ public class AccountTest {
                     String ownerName = scanner.nextLine();
                     System.out.print("輸入初始餘額: ");
                     double initialBalance = scanner.nextDouble();
-                    Account newAccount = new Account(accNum, ownerName, initialBalance);
+                    Account newAccount = new Account();
                     addCustomer(customers, newAccount);
                     break;
                 case 2:
